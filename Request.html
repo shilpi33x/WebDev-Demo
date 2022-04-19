@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question 5 | Request</title>
+    <link rel="stylesheet" href="StyleQ5.css" />
+    <script src="Validation.js"></script>
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <h1>Request a Book</h1>
+          </td>
+          <td>
+            <nav>
+              <a href="Home.html">Home</a> &nbsp;&nbsp;&nbsp;
+              <a href="Products.html">Products</a> &nbsp;&nbsp;&nbsp;
+              <a href="Reviews.html">Reviews</a> &nbsp;&nbsp;&nbsp;
+              <a href="Contact Us.html">Contact Us</a>
+            </nav>
+          </td>
+        </tr>
+      </table>
+      <a href="Home.html"
+        ><img
+          width="50"
+          style="float: left; display: inline-block"
+          src="https://images.sftcdn.net/images/t_app-logo-l,f_auto/p/78907cb8-9b66-11e6-97cf-00163ec9f5fa/116005528/bookworm-logo.png"
+      /></a>
+      <br />
+      <hr />
+    </header>
+    <br />
+    <br />
+
+    <section>
+      <form method="post" onsubmit="return validateForm()">
+        <div id="output"></div>
+        <table class="form">
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <img
+                width="400px"
+                src="https://th.bing.com/th/id/R.7fd5e5a64434cb8767d945cfe7403996?rik=5jOkDK4057lnsA&riu=http%3a%2f%2fclipartmag.com%2fimages%2fline-separator-clipart-31.png&ehk=PwWyWsHBb3IGiowTr5uWW027XQ9jp9hCRg%2bpFU4zRZA%3d&risl=&pid=ImgRaw&r=0"
+                style="vertical-align: bottom"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><br /></td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              To buy currently unavailable/out of stock books, fill in this
+              form:
+            </th>
+          </tr>
+          <tr>
+            <td colspan="2"><br /></td>
+          </tr>
+          <tr>
+            <th colspan="2">Book Details</th>
+          </tr>
+          <tr>
+            <td>Book Title: *</td>
+            <td><input type="text" name="title" id="title" required /></td>
+          </tr>
+          <tr>
+            <td>Author's Name: *</td>
+            <td><input type="text" name="author" id="author" required /></td>
+          </tr>
+          <tr>
+            <td>Format:</td>
+            <td>
+              <input type="radio" name="format" value="paperback" />Paperback
+              <input type="radio" name="format" value="hardcover" />Hardcover
+              <br />
+              <input type="radio" name="format" value="eBook" />EBook
+              <input type="radio" name="format" value="audiobook" />Audiobook
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><br /></td>
+          </tr>
+          <tr>
+            <th colspan="2">Personal Information</th>
+          </tr>
+          <tr>
+            <td>Your Name: *</td>
+            <td><input type="text" name="name" id="name" required /></td>
+          </tr>
+          <tr>
+            <td>Date of Birth: *</td>
+            <td><input type="date" name="dob" id="dob" required /></td>
+          </tr>
+          <tr>
+            <td>Phone No.: <sup>#</sup></td>
+            <td><input type="number" name="phone" id="phone" /></td>
+          </tr>
+          <tr>
+            <td>Email: <sup>#</sup></td>
+            <td><input type="email" name="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td>Address:</td>
+            <td><textarea rows="2" cols="21" name="address"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2" id="submit">
+              <input type="submit" class="button" />
+              <input type="reset" class="button" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <img
+                width="400px"
+                src="https://th.bing.com/th/id/R.7fd5e5a64434cb8767d945cfe7403996?rik=5jOkDK4057lnsA&riu=http%3a%2f%2fclipartmag.com%2fimages%2fline-separator-clipart-31.png&ehk=PwWyWsHBb3IGiowTr5uWW027XQ9jp9hCRg%2bpFU4zRZA%3d&risl=&pid=ImgRaw&r=0"
+                style="vertical-align: bottom"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <br /><br />
+
+    <footer><small>Made by Shilpi Jana</small></footer>
+  </body>
+</html>

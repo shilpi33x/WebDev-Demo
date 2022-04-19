@@ -1,0 +1,203 @@
+body {
+  /* background-color: rgb(54, 54, 54); */
+  /* color: antiquewhite; */
+  margin: 0;
+  font-family: "Gill Sans MT", Calibri, sans-serif;
+  text-align: center;
+  font-size: medium;
+  position: relative;
+  min-height: 100%;
+}
+:hover {
+  transition: ease-in-out 0.2s;
+}
+
+#home {
+  margin: 0 0 10px 0;
+}
+
+header table {
+  width: 100%;
+  padding: 0;
+}
+
+h1 {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 100px;
+  vertical-align: bottom;
+  /* color: rgb(116, 33, 33); */
+  /* color: antiquewhite; */
+}
+
+h2 {
+  font-size: smaller;
+  display: inline;
+  vertical-align: top;
+}
+
+nav {
+  margin: 0;
+  font-size: large;
+  width: 100%;
+  overflow: initial;
+}
+
+nav a {
+  float: right;
+  padding: 20px 50px;
+  text-decoration: none;
+  margin: 20px 0;
+  border-left: 1px solid #000000;
+}
+
+nav a:hover {
+  background-color: rgb(247, 247, 247);
+  /* transform: scale(1.1); */
+  transition: 0.5s;
+}
+
+a {
+  color: gray;
+}
+a:hover {
+  color: brown;
+}
+
+#home #title {
+  font-family: "Bookman", serif;
+  font-style: oblique;
+}
+#est {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+#banner {
+  background-image: url("bookstore.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 25% 4% 10% 4%;
+  font-size: larger;
+  text-shadow: 0 0 10px black;
+  color: white;
+  text-align: left;
+}
+
+section {
+  padding: 1% 2%;
+}
+
+button {
+  background-color: beige;
+  color: brown;
+  padding: 10px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: brown;
+  color: white;
+}
+
+#seeall {
+  display: inline-block;
+  margin: 80px;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#seeall:hover {
+  background-color: gray;
+  color: white;
+}
+
+iframe {
+  border: 1px solid coral;
+}
+
+.product {
+  /* border: 2px black solid; */
+  box-shadow: 0 0 10px black;
+  width: 250px;
+  height: 320px;
+  padding: 50px;
+  margin: 50px;
+  display: inline-block;
+}
+
+.product:hover {
+  transform: scale(1.2);
+}
+
+.review {
+  box-shadow: 0 0 10px grey;
+  width: 30%;
+  margin: 15px auto;
+  padding: 50px;
+}
+
+.form {
+  margin: auto;
+  /* border: 1px rgb(117, 30, 30) solid; */
+  /* background-color: bisque; */
+  text-align: justify;
+  padding: 25px;
+}
+
+.form #submit {
+  text-align: center;
+}
+
+.form .button {
+  background-color: black;
+  color: beige;
+  font-weight: 700;
+  margin: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.form .button:hover {
+  background-color: beige;
+  color: brown;
+}
+
+#contact:before,
+#contact:after {
+  background-color: #333;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 43%;
+}
+#contact:before {
+  right: 50px;
+  margin-left: -50%;
+}
+#contact:after {
+  left: 50px;
+  margin-right: -50%;
+}
+
+address {
+  display: inline;
+}
+
+footer {
+  background-color: #000000;
+  color: #f0fff0;
+  text-align: center;
+  padding: 10px;
+  /* position: absolute; */
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
